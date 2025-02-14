@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/curiousminds/static/css/main.f855e6bc.css",
-    "main.js": "/curiousminds/static/js/main.4f019cf2.js",
-    "index.html": "/curiousminds/index.html",
-    "main.f855e6bc.css.map": "/curiousminds/static/css/main.f855e6bc.css.map",
-    "main.4f019cf2.js.map": "/curiousminds/static/js/main.4f019cf2.js.map"
+    "main.css": "./static/css/main.f855e6bc.css",
+    "main.js": "./static/js/main.c4e81f95.js",
+    "index.html": "./index.html",
+    "main.f855e6bc.css.map": "./static/css/main.f855e6bc.css.map",
+    "main.c4e81f95.js.map": "./static/js/main.c4e81f95.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.4f019cf2.js"
+    "static/js/main.c4e81f95.js"
   ]
 }
