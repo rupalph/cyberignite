@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/curiousminds/static/css/main.f855e6bc.css",
+    "main.js": "/curiousminds/static/js/main.eef3b691.js",
+    "index.html": "/curiousminds/index.html",
+    "main.f855e6bc.css.map": "/curiousminds/static/css/main.f855e6bc.css.map",
+    "main.eef3b691.js.map": "/curiousminds/static/js/main.eef3b691.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.eef3b691.js"
+  ]
+}
