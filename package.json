@@ -1,7 +1,7 @@
 {
   "name": "cyberignite",
   "version": "0.1.0",
-  "homepage": "https://rupalph.github.io/cyberignite/",
+  "homepage": "https://www.cyberignite.org",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
@@ -12,7 +12,7 @@
     "styled-components": "^5.3.10"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeplnpmoy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

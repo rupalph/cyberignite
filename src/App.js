@@ -18,7 +18,7 @@ import NoPage from "./pages/NoPage";
 
 function App() {
     return (
-        <BrowserRouter basename = "/cyberigniteech" >
+        <BrowserRouter basename = "/" >
             <Navbar />
             <Routes>
                 <Route path="/resources" element={<Resources />} />
