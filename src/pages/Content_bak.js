@@ -92,9 +92,8 @@ const Content = () => {
       <MainImageContainer>
         <MainImage src="/img2.jpg" alt="Highlight" />
       </MainImageContainer>
-      <Heading>Pathways to reach your full potential</Heading>
-      <Paragraph>
-Our research programs provide ways to cultivate young mind think and create ideas. </Paragraph>
+      <Heading>Empower and guide young individuals to pursue careers in cybersecurity</Heading>
+      <Paragraph>Help underprivileged students earn valuable cybersecurity certifications and connect with industry professionals for mentorship and career guidance. </Paragraph>
       <CircularImagesContainer>
         {data.map((item, index) => (
           <Item key={index}>

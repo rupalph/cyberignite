@@ -12,7 +12,7 @@
     "styled-components": "^5.3.10"
   },
   "scripts": {
-    "predeplnpmoy": "npm run build",
+    "predeplpoy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

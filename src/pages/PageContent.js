@@ -89,24 +89,21 @@ const GridItem = styled.div`
 `;
 
 const data = [
-  { topic: "The Science of Slime", text: "Investigate different slime recipes, varying ingredients like glue type, activator, and additives. Test properties like viscosity, elasticity, and stretchiness. Create a controlled experiment and analyze the results. Consider the chemical reactions involved." },
-  { topic: "Plant Growth Under Different Light Conditions", text: "Design an experiment to test the effects of different light colors (wavelengths) or intensities on plant growth. Measure growth rate, leaf size, and overall health. Research the role of light in photosynthesis." },
-  { topic: "The Impact of Sound on Human Concentration", text: "Conduct a study on how different types of music or background noise affect the ability to focus and complete tasks. Use a standardized test or puzzle. Analyze the results and consider the psychology of attention." },
-    { topic: "The Correlation Between Exercise and Heart Rate", text: "Design an experiment to measure heart rate changes during different types and intensities of exercise. Analyze the data and research the cardiovascular system's response to physical activity. Explore the long-term health benefits of exercise.." },
-
+{topic: "CompTia Certificate Series", text: "Earn industry-recognized certifications like CompTIA Security+, PenTest+, and CySA+ to boost your cybersecurity career. These credentials validate essential skills in threat detection, vulnerability assessment, and ethical hacking. Stand out to employers with hands-on expertise in securing networks, systems, and data."},
+    { topic: "Mentorship program", text: "Our mentorship program bridges the gap between students and industry professionals. We foster meaningful connections to support career exploration and growth. Students gain valuable insights, guidance, and real-world exposure through expert mentors." },
+{ topic: "Stem workshops", text: "Our STEM workshops offer hands-on learning experiences in coding, robotics, and real-world problem solving. Students engage in interactive projects that build critical thinking, creativity, and collaboration skills. Designed to inspire future innovators, these workshops make technology fun, accessible, and impactful." },
+  { topic: "Industry field-trips", text: "Industry field trips take students to factories and tech hubs to see STEM applications in real-world settings. These experiences help bridge classroom learning with practical industry insights and career awareness." },
+  { topic: "Cyber Awareness Program", text: "Our Cyber Awareness Program educates students on the importance of online safety, digital responsibility, and cybersecurity fundamentals. The program empowers youth to protect their personal information and navigate the digital world confidently and securely." }
 ];
 const Content = () => {
   return (
     <Container>
-    <Heading>Science Programs</Heading>
-    <Paragraph> Let's try experimenting and innovating solutions together. </Paragraph>
-
+    <Heading>Cybersecurity and Strem Programs</Heading>
+    <Paragraph> Let’s explore cybersecurity and STEM together by experimenting and innovating real-world tech solutions.</Paragraph>
       <GridContainer>
               {data.map((item, index) => (
-
             <GridItem><p>{item.topic}</p>{item.text}</GridItem>
         ))}
-
           </GridContainer>
     </Container>
   );

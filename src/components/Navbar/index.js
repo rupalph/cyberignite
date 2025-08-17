@@ -11,7 +11,7 @@ import {
     LogoLink
 } from "./navbarElements";
 const LogoComponent = () => (
-  <img src="./images/logo2.png" alt="Curious Minds" />
+  <img src="./images/logo.png" alt="Cyber Ignite" />
   // OR
   // <svg width="50" height="50"> {/* Your SVG code here */} </svg>
   // OR

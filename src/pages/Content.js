@@ -34,7 +34,7 @@ const Heading = styled.h2`
 `;
 
 const Paragraph = styled.p`
-  font-size: 22px;
+  font-size: 18px;
   color: #6281ba;
   text-align: center;
   max-width: 800px;
@@ -82,11 +82,11 @@ const Content = () => {
   return (
     <Container>
       <MainImageContainer>
-        <MainImage src="./images/banner.png" alt="Highlight" />
+        <MainImage src="./images/topbanner.png" alt="Highlight" />
       </MainImageContainer>
-      <Heading>Pathways to reach your full potential</Heading>
+      <Heading>Empower and guide young individuals to pursue careers in cybersecurity and stem</Heading>
       <Paragraph>
-Our research programs provide ways to cultivate young mind think and create ideas. </Paragraph>
+      Help underprivileged students earn valuable cybersecurity certifications and connect with industry professionals for mentorship and career guidance.</Paragraph>
       <CircularImagesContainer>
         {data.map((item, index) => (
           <Item key={index}>
